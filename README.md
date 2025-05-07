@@ -28,7 +28,7 @@ Has Table Booking, Has Online Delivery, Is Delivering Now – Availability flags
 
 Price Range – Cost level (1 to 4)
 
-Aggregate Rating – ⭐️ Target variable
+Aggregate Rating –  Target variable
 
 Rating Color, Rating Text – Visual/textual rating labels
 

@@ -3,7 +3,7 @@
 ****Project 1****:
 Zomato User Preference Prediction 
 
- **Problem Statement****
+ **Problem Statement**
  
 The goal is to analyze and predict user preferences on Zomato based on aggregated restaurant ratings across different countries. By identifying patterns in customer satisfaction, this project helps restaurants tailor their offerings to regional preferences.
 
@@ -78,7 +78,8 @@ csv
 ID, treatment
 1, Yes
 2, No
-...
+
+
 **Techniques Used**
 
 Categorical Encoding

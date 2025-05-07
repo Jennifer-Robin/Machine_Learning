@@ -1,6 +1,7 @@
 # Machine_Learning
 
 ****Project 1****:
+
 Zomato User Preference Prediction 
 
  **Problem Statement**
@@ -49,7 +50,10 @@ Evaluation Metrics: R² Score, RMSE, MAE
  
 The model helps Zomato and its restaurant partners understand what drives customer satisfaction and how it differs across countries—improving user experience and strategic planning.
 
- ****Project 2****:
+
+
+ ******Project 2******:
+ 
  Employee Mental Health Treatment Prediction 
  
 **Problem Statement**

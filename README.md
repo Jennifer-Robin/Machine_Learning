@@ -79,8 +79,11 @@ Target Variable: treatment (Yes/No)
  **Submission Format**
  
 csv
+
 ID, treatment
+
 1, Yes
+
 2, No
 
 

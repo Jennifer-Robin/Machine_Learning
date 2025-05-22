@@ -103,3 +103,84 @@ Evaluation: Accuracy, Precision, Recall, F1 Score
  
 Helps organizations proactively identify employees who may be struggling with mental health issues and implement targeted wellness programs.
 
+**Project 3**
+
+# 🚦 Smart Signals for a Smarter Bengaluru
+
+A machine learning project to optimize traffic signal durations based on real-time vehicle flow, helping reduce congestion and improve urban mobility in Bengaluru.
+
+---
+
+## 📌 Project Objective
+
+The goal of this project is to predict optimal green signal durations at traffic junctions using data science techniques. By analyzing vehicle flow across different times of the day, the system can dynamically adjust signal timing to enhance traffic efficiency.
+
+---
+
+## 📂 Dataset Overview
+
+A simulated dataset was used, representing traffic at **7 major junctions** in Bengaluru. Each data point includes:
+- `timestamp` – 15-minute interval records
+- `junction_id` – unique identifier
+- `north`, `south`, `east`, `west` – vehicle count per direction
+- `signal_duration` – current green light duration
+
+> Additional features: total vehicle count, hour of day, time of day classification
+
+---
+
+## 🔍 Exploratory Data Analysis (EDA)
+
+Key insights uncovered:
+- 📈 Traffic peaks during morning and evening hours
+- 🕒 Signal durations did not always align with actual traffic volume
+- 📊 Distribution and KDE plots showed consistent error margins within ±6 seconds
+
+Visuals include:
+- Vehicle flow by hour
+- Signal duration trends
+- Time-of-day comparison
+- Junction-level performance
+
+---
+
+## 🤖 Model Development
+
+- **Algorithm:** Random Forest Regressor
+- **Problem Type:** Regression
+- **Features:** Hour of day, vehicle flow from all directions
+- **Target:** Signal duration (seconds)
+- **Evaluation:**  
+  - Mean Absolute Error ~ **5 seconds**
+  - Error distribution was centered and balanced
+
+---
+
+## ⚙️ Optimization Use-Case
+
+A dynamic adjustment strategy was proposed:
+- **+20% signal duration** during peak hours (morning & evening)
+- **−10%** during off-peak times (midday & late evening)
+
+This scenario reduces congestion while optimizing signal operation efficiency.
+
+---
+
+## 🧠 Skills Applied
+
+- Feature engineering  
+- EDA & data visualization  
+- Regression modeling  
+- Urban mobility optimization  
+- Python, Pandas, Seaborn, Scikit-learn
+
+---
+
+## 📈 Results
+
+This model proves that real-time traffic data can guide adaptive traffic signal management, leading to better traffic flow and resource utilization in urban cities like Bengaluru.
+
+---
+
+
+

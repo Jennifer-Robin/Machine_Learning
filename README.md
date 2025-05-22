@@ -103,7 +103,7 @@ Evaluation: Accuracy, Precision, Recall, F1 Score
  
 Helps organizations proactively identify employees who may be struggling with mental health issues and implement targeted wellness programs.
 
-**Project 3**
+******Project 3******
 
 # 🚦 Smart Signals for a Smarter Bengaluru
 

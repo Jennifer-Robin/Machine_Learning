@@ -50,6 +50,8 @@ Evaluation Metrics: R² Score, RMSE, MAE
  
 The model helps Zomato and its restaurant partners understand what drives customer satisfaction and how it differs across countries—improving user experience and strategic planning.
 
+----
+
 
 
  ******Project 2******:
@@ -103,19 +105,20 @@ Evaluation: Accuracy, Precision, Recall, F1 Score
  
 Helps organizations proactively identify employees who may be struggling with mental health issues and implement targeted wellness programs.
 
+---
+
 ******Project 3******
 
 # 🚦 Smart Signals for a Smarter Bengaluru
 
 A machine learning project to optimize traffic signal durations based on real-time vehicle flow, helping reduce congestion and improve urban mobility in Bengaluru.
 
----
 
 ## 📌 Project Objective
 
 The goal of this project is to predict optimal green signal durations at traffic junctions using data science techniques. By analyzing vehicle flow across different times of the day, the system can dynamically adjust signal timing to enhance traffic efficiency.
 
----
+
 
 ## 📂 Dataset Overview
 
@@ -127,7 +130,6 @@ A simulated dataset was used, representing traffic at **7 major junctions** in B
 
 > Additional features: total vehicle count, hour of day, time of day classification
 
----
 
 ## 🔍 Exploratory Data Analysis (EDA)
 
@@ -142,7 +144,6 @@ Visuals include:
 - Time-of-day comparison
 - Junction-level performance
 
----
 
 ## 🤖 Model Development
 
@@ -154,7 +155,6 @@ Visuals include:
   - Mean Absolute Error ~ **5 seconds**
   - Error distribution was centered and balanced
 
----
 
 ## ⚙️ Optimization Use-Case
 
@@ -164,7 +164,6 @@ A dynamic adjustment strategy was proposed:
 
 This scenario reduces congestion while optimizing signal operation efficiency.
 
----
 
 ## 🧠 Skills Applied
 
@@ -174,7 +173,6 @@ This scenario reduces congestion while optimizing signal operation efficiency.
 - Urban mobility optimization  
 - Python, Pandas, Seaborn, Scikit-learn
 
----
 
 ## 📈 Results
 

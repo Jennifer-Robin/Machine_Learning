@@ -1,6 +1,6 @@
 # Machine_Learning
 
-****Project 1****:
+# Project 1
 
 Zomato User Preference Prediction 
 
@@ -54,7 +54,7 @@ The model helps Zomato and its restaurant partners understand what drives custom
 
 
 
- ******Project 2******:
+ # Project 2
  
  Employee Mental Health Treatment Prediction 
  

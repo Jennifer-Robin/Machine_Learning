@@ -179,6 +179,112 @@ This scenario reduces congestion while optimizing signal operation efficiency.
 This model proves that real-time traffic data can guide adaptive traffic signal management, leading to better traffic flow and resource utilization in urban cities like Bengaluru.
 
 ---
+# Project 4
+
+🚦 Urban Traffic Congestion Prediction & Optimization - Bengaluru
+This project uses machine learning and rule-based logic to predict and optimize traffic congestion in the urban environment of Bengaluru, India. With growing vehicle density and static signal systems, the goal is to develop a data-driven approach to support urban mobility and reduce congestion.
+
+## Problem Statement
+Bengaluru suffers from rising traffic congestion due to:
+
+Fixed signal timings
+
+Inconsistent traffic volume
+
+Limited real-time responsiveness
+
+##Objectives:
+
+Predict congestion levels based on real-world features.
+
+Identify traffic hotspots.
+
+Implement a rule-based signal timing strategy to reduce congestion during peak hours.
+
+##📦 Dataset Overview
+Source: Simulated dataset inspired by public data (Kaggle/manual collection)
+Records: Thousands of hourly entries across multiple roads and intersections in Bengaluru
+
+##Key Features:
+
+Area Name, Road/Intersection
+
+Traffic Volume, Average Speed, Travel Time Index
+
+Weather, Incident Reports, Signal Compliance
+
+Public Transport Usage, Parking Usage, Pedestrian Count
+
+Target: Congestion Level (continuous range: 5–100)
+
+##📊 Exploratory Data Analysis (EDA)
+Heatmaps and Sunburst plots to locate congestion hotspots like Indiranagar, Koramangala
+
+Scatter plots to show inverse relationship between speed and volume
+
+Boxplots for Travel Time Index variability across areas
+
+Pie charts summarizing incident reports per area
+
+##🧪 Data Preprocessing & Feature Engineering
+Handled nulls, outliers, and scaling
+
+Label encoded categorical features
+
+Extracted Hour from timestamp to capture peak hours
+
+Scaled numerical fields using StandardScaler
+
+##🤖 Model Building
+Tested multiple regression models:
+
+Linear Regression
+
+Random Forest Regressor ✅ (Best performer)
+
+XGBoost Regressor
+
+Model Performance (Random Forest):
+
+R² Score: 0.96
+
+MAE: 2.85
+
+RMSE: 4.31
+
+##🧠 Signal Optimization Logic
+Implemented a simple rule-based logic:
+
+python
+Copy
+Edit
+if congestion > 85 and hour in peak_hours:
+    extend_signal_time()
+✅ Resulted in a visible drop in average congestion during simulated peak hours.
+
+##📈 Results
+Successfully predicted congestion across locations and times
+
+Identified traffic-heavy zones
+
+Simulated signal adjustment led to congestion reduction
+
+##🚀 Future Enhancements
+Integrate real-time traffic data via IoT or GPS
+
+Use LSTM or time-series deep learning models
+
+Deploy Reinforcement Learning for real-time signal optimization
+
+Create a dashboard for city traffic authorities
+
+Extend model to multiple Indian cities
+
+re (Add your PDF or Google Slides link)
+
+🙌 Acknowledgements
+Special thanks to open data contributors and the Data Science faculty at Imarticus Learning, Bangalore.
+
 
 
 
